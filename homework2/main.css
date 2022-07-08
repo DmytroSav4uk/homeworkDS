@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background: silver;
+
+}
+div{
+
+    justify-content: center;
+}
+h1{
+
+    margin: 0;
+}
+.upwidget{
+    display: flex;
+}
+
+.midwidget{
+
+    display: flex;
+
+}
+.upbox{
+    width: 600px;
+    height: auto;
+    margin-top:25px ;
+    background: aquamarine;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    border: solid white;
+}
+.box{
+    width:200px;
+    height: auto;
+    background: aquamarine;
+    box-sizing: border-box;
+    padding: 20px;
+
+    text-align: center;
+    border: solid white;
+}
+.botwidjet{
+    display: flex;
+}
+.botbox{
+    margin-bottom: 25px;
+    width:600px;
+    height: auto;
+    background: fuchsia;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    border: solid white;
+}
+img{
+    margin-left:-20px!important; ;
+    width: 200px;
+    height: 300px;
+
+}
