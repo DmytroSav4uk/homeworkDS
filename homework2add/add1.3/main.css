@@ -1,0 +1,58 @@
+body{
+    background: #72bddc;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    column-gap: 20px;
+
+}
+
+.card{
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    width: 600px;
+    height: 200px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.icon{
+    height: 200px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.fa-pen-to-square{
+    font-size: 50px;
+    color: grey;
+
+}
+.fa-id-card{
+    font-size: 50px;
+    color: grey;
+}
+.fa-solid{
+    font-size: 50px;
+    color: grey;
+}
+
+.narrative{
+    width: 350px;
+    margin-left: 25px;
+    padding: 0;
+    height: 200px;
+}
+
+.narrative > h1{
+    white-space:nowrap;
+    margin-bottom: 0;
+    color: #ffc26f;
+}
