@@ -1,16 +1,15 @@
-body{
+body {
     background: #72bddc;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
-    flex-wrap:wrap ;
-    column-gap: 20px;
-
+    flex-wrap: wrap;
+    column-gap: 50px;
 }
 
-.card{
+.card {
     margin: 10px 0;
     display: flex;
     justify-content: flex-start;
@@ -21,42 +20,44 @@ body{
     box-sizing: border-box;
 }
 
-.icon{
+.icon {
     height: 200px;
     margin-left: 60px;
     display: flex;
     justify-content: start;
     align-items: center;
-
 }
 
-.fa-pen-to-square{
+.fa-pen-to-square {
     font-size: 50px;
     color: grey;
 
 }
-.fa-id-card{
-    font-size: 50px;
-    color: grey;
-}
-.fa-solid{
+
+.fa-id-card {
     font-size: 50px;
     color: grey;
 }
 
-.narrative{
+.fa-solid {
+    font-size: 50px;
+    color: grey;
+}
+
+.narrative {
     width: 350px;
     margin-left: 25px;
     padding: 0;
     height: 200px;
 }
 
-.narrative > h1{
-    font-family:"Trebuchet MS", Serif;
-    white-space:nowrap;
+.narrative > h1 {
+    font-family: "Trebuchet MS", Serif;
+    white-space: nowrap;
     margin-bottom: 0;
     color: #ffc26f;
 }
-.narrative > p{
-    font-family:"Trebuchet MS", Serif;
+
+.narrative > p {
+    font-family: "Trebuchet MS", Serif;
 }
