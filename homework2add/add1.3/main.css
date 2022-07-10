@@ -52,7 +52,11 @@ body{
 }
 
 .narrative > h1{
+    font-family:"Trebuchet MS", Serif;
     white-space:nowrap;
     margin-bottom: 0;
     color: #ffc26f;
+}
+.narrative > p{
+    font-family:"Trebuchet MS", Serif;
 }
