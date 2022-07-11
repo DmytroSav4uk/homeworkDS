@@ -1,32 +1,37 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #72bddc;
 }
 
 .container {
-    margin-top: 100px   ;
+    margin: auto;
+    width: 1300px;
+    height: 800px;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    column-gap: 50px;
+    /*overflow: hidden;*/
 }
 
 .card {
-    margin: 10px 0;
     display: flex;
-    justify-content: flex-start;
     background: white;
     width: 600px;
     height: 200px;
     border-radius: 50px;
-    box-sizing: border-box;
 }
 
 .icon {
+    width: 150px;
     height: 200px;
-    margin-left: 60px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    /*border: 1px solid black;*/
 }
 
 .fa-pen-to-square {
@@ -46,19 +51,21 @@ body {
 }
 
 .narrative {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
     width: 350px;
-    margin-left: 25px;
-    padding: 0;
     height: 200px;
+    gap: 10px;
 }
 
 .narrative > h1 {
     font-family: "Trebuchet MS", Serif;
-    white-space: nowrap;
-    margin-bottom: 0;
-    color: #ffc26f;
+    margin: 0;
 }
 
 .narrative > p {
     font-family: "Trebuchet MS", Serif;
+    margin: 0;
 }
