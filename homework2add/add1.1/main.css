@@ -90,3 +90,17 @@ justify-content: center;
     justify-content: center;
 
 }
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#cardContainer{
+    display: flex;
+}
+
+#textContainer{
+    display: flex;
+    justify-content: center;
+}
