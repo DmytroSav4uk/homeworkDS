@@ -147,8 +147,7 @@ p{
 
 .Round{
     position: absolute;
-    height: 200px;
-    width: 200px;
+    left: 100px;
     border-radius: 100%;
 }
 .uniqAlign{
@@ -159,7 +158,6 @@ p{
     align-items: center;
     gap: 50px;
 }
-
 .narrative{
     display: flex;
     flex-direction: column;
@@ -170,5 +168,4 @@ p{
 .narrative > h1,p{
     margin-left: 50px;
     width: 50%;
-
 }
