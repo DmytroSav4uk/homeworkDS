@@ -1,16 +1,16 @@
 body{
     margin: 0;
-    font-family:Calibri, Serif ;
+    font-family:Calibri, sans-serif ;
     font-size: 20pt;
 }
 .high{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: rgb(18 41 62) ;
 }
 .low{
     width: 100%;
-    height: 1000px;
+    height: 3000px;
     background: #c6cdda;
 }
 .top_bar{
@@ -21,7 +21,7 @@ body{
     height: 120px;
     background: #c6cdda;
     position: fixed;
-
+    z-index: 999;
 }
 .barbox{
     margin-left: 20px;
@@ -41,12 +41,10 @@ body{
 }
 
 .textContainer{
-
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .text{
@@ -57,29 +55,120 @@ body{
     width: 50%;
 }
 
-.text > h1{
+h1{
+    margin: 0;
     color: purple;
 }
 
-.text > p{
+p{
     color: #b000b0;
     text-align: justify;
 }
 
 .boxContainer{
-
-
-
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.box, .boxGhost, .wideBox, .Round {
+    width: 200px;
+    height: 200px;
+    background: #055fd3;
+    border-radius: 20px;
+}
+.boxGhost{
+    top: -100px;
+    position: relative;
 }
 
 
-.box{
-    top: -100px;
-    position: relative;
+
+.TopElementsAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    gap: 170px;
+}
+
+.boxContainerLow{
+    /*height: 500px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.textContainerLow{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textUnderBox >p{
     width: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+.centralAlign{
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.MidElementsAlign{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.wideBox{
+    margin: 20px;
+    width:400px ;
+}
+
+.RoundElementAlign{
+    height: 500px;
+   display: flex;
+    flex-direction:row ;
+
+}
+
+.Round{
+    position: absolute;
     height: 200px;
-    background: purple;
-    border-radius: 20px;
+    width: 200px;
+    border-radius: 100%;
+}
+.uniqAlign{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.narrative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.narrative > h1,p{
+    margin-left: 50px;
+    width: 50%;
+
 }
