@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: silver;
+
+}
+.a{
+    width: 100vw;
+    height: 25%;
+    background: deepskyblue;
+}
+.bcContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.b{
+    height: 100%;
+    width:75%;
+    background: #18c09d;
+}
+
+.c{
+    height: 100%;
+    width: 25%;
+    background: #055fd3;
+}
