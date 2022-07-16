@@ -1,0 +1,53 @@
+body{
+
+    margin: 0;
+    background: silver;
+    text-align: center;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.Header{
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    display: flex;
+}
+.Main{
+display: flex;
+height: 1000px;
+}
+
+.logo{
+    margin-right:10px ;
+    background: #772e2e;
+    width: 10%;
+    height: 100%;
+
+}
+
+.header{
+    background: #772e2e;
+    width: 90%;
+    height: 100%;
+}
+
+
+.nav, .bath, .ad,.types,.related,.store,.tools{
+    background: #18c09d;
+}
+
+
+.nav{
+    width: 10%;
+    height: 75%;
+}
+
+.bath{
+    width: 80%;
+    height: 20%;
+}
+
