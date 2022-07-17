@@ -1,0 +1,68 @@
+
+.boxBackground{
+    background: #c6cdda;
+}
+
+
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.SideBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.box{
+    margin: 10px;
+    width: 180px;
+    height: 50px;
+}
+
+.align{
+    display: flex;
+}
+
+.Main{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.block3align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+}
+
+.block3{
+    width: 90%;
+    height: 80%;
+    background: #c6cdda;
+}
+
+.block4align{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.box4{
+    width: 16%;
+    height: 80%;
+}
