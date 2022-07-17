@@ -1,47 +1,51 @@
-body{
-
+body {
     margin: 0;
     background: silver;
     text-align: center;
 }
 
-.container{
-    width: 100vw;
-    height: 100vh;
+.container {
+    /*overflow: hidden;*/
+    width: 100%;
+    height: 100%;
 }
 
-.Header{
+.Header {
     width: 100%;
     height: 120px;
     display: flex;
-    gap: 10px;
+    flex-direction: row;
+gap: 10px;
+
 }
-.Main{
+
+.Main {
+
     display: flex;
-    width: 100%;
-    height: 1500px;
+    width: 100vw;
+    height: 760px;
 
 }
 
-.logo{
+.logo {
     background: #772e2e;
     width: 10%;
     height: 100%;
 
 }
 
-.header{
+.header {
     background: #772e2e;
     width: 90%;
     height: 100%;
 }
 
 
-.nav, .bath, .ad,.types,.related,.store,.tools{
+.nav, .bath, .ad, .types, .related, .store, .tools {
     background: #18c09d;
 }
 
-.NST{
+.NST {
     display: flex;
     flex-direction: column;
     width: 10%;
@@ -50,49 +54,158 @@ body{
 
 }
 
-.nav{
-    height: 80%;
+.nav {
+    height: 440px;
+    /*width: 100%;*/
+}
+
+.store, .tools {
+    height: 150px;
     width: 100%;
 }
 
-.store,.tools{
-    height: 10%;
-    width: 100%;
-}
 
-
-.BATR{
+.BATR {
     box-sizing: border-box;
     /*overflow: hidden;*/
     margin-left: 10px;
     width: 90%;
     height: 100%;
+
+
+}
+
+.bath {
+    width: 75%;
+    height: 375px;
+}
+
+.ad {
+
+    width: 25%;
+    height: 375px;
+}
+
+.types {
+
+    width: 75%;
+    height: 375px;
+}
+
+.related {
+    width: 25%;
+    height: 375px;
+}
+
+
+.ba {
     display: flex;
-   flex-direction: row;
-    flex-wrap: wrap;
+    width: 100%;
     gap: 10px;
 
 }
 
-.bath{
-    width: 73%;
-    height: 25%;
+.tr {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
 }
 
-.ad{
 
-    width: 26%;
-    height: 25%;
+@media screen and (max-width: 780px) {
+    body {
+        background: #b000b0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Header {
+        justify-content: center;
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    .Main {
+        height: 2000px;
+    }
+
+    .NST {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BATR {
+        margin-top: 20px;
+    }
+.header{
+    width: 620px;
+}
+.logo{
+    width: 80px;
+}
+    .tr {
+        flex-direction: column;
+    }
+
+    .bath {
+        width: 60%;
+    }
+
+    .ad {
+        width: 40%;
+    }
+
+    .related, .NST, .types {
+        width: 100%;
+    }
+
+    .nav {
+        margin-top: 10px;
+        height: 100%;
+        width: 90%;
+    }
+
+    .Main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NST {
+        width: 100%;
+        height: 300px;
+        flex-direction: row;
+    }
+
+    .nav, .store, .tools, .bath,
+    .ad, .types, .related, .logo, .header {
+        border-radius: 20px;
+    }
+
+
+    /*I think that's incorrect*/
+    .store {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 40px;
+        bottom: -1020px;
+    }
+
+    .tools {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 436px;
+        bottom: -1020px;
+    }
 }
 
-.types{
-    width: 73%;
-    height: 75%;
-}
-
-.related{
-    width: 26%;
-    height: 75%;
-}
 
 
