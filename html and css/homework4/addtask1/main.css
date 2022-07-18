@@ -194,17 +194,17 @@ gap: 10px;
     /*I think that's incorrect*/
     .store {
         position: absolute;
-        width: 300px;
-        height: 200px;
-        left: 40px;
+        width: 30%;
+        height: 23%;
+        left: 30px;
         bottom: -1020px;
     }
 
     .tools {
         position: absolute;
-        width: 300px;
-        height: 200px;
-        left: 436px;
+        width: 30%;
+        height: 23%;
+        right: 20px;
         bottom: -1020px;
     }
 }
